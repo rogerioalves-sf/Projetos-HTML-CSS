@@ -97,7 +97,7 @@ main div#conteudo {
     transform: translate(0px,210px);
 }
 
- @media screen and (min-width:1400px) {
+ @media screen and (min-width:550px) {
     main {
         font-family: 'Fraunces', Helvetica, sans-serif;
         width: 570px;
