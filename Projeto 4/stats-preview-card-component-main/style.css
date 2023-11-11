@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+/* font deca = font-family: 'Lexend Deca', sans-serif;
+font inter: font-family: 'Inter', sans-serif; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    font-family: 'Lexend Deca', Helvetica, sans-serif;
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+}
+
+main {
+    background-color: hsl(244, 38%, 16%);
+    height: 330px;
+    width: 800px;
+    margin: 17vh auto 17vh auto;
+    border-radius: 10px;
+    position: relative;
+    background-image: url(images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 50%;
+}
+
+main h1 {
+    color: hsl(0, 0%, 100%);
+    
+   display: block;
+   width: 340px;
+   padding: 30px 0px 0px 30px;
+   text-align: justify;
+}
+main p#infos {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 30px 0px 0px 30px;
+    
+    width: 350px;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+main ul {
+    color: hsla(0, 0%, 100%, 0.6);
+    padding: 0px 0px 0px 30px;
+    
+    width: 350px;
+}
+main li {
+    display: inline-block;
+    padding: 30px 0px 0px 3px;
+    font-size: 1em;
+    text-align: left;
+}
+
+main li > strong {
+    color:  hsl(0, 0%, 100%);
+    font-size: 1.4em;
+}
